@@ -27,8 +27,8 @@ export default function LoginForm() {
   // Form
   const form = useForm<LoginValues>({
     defaultValues: {
-      email: '',
-      password: '',
+      email: 'demo.rose.portfolio@mailinator.com',
+      password: 'Demo@12345',
     },
     resolver: zodResolver(loginSchema),
   });
